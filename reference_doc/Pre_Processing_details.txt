@@ -1,0 +1,12 @@
+python default cleaning
+re-index
+change columns to upper or lower case
+trim time stamp or split it from date 
+Maintain camel font convention
+
+
+-- order 
+cleaning pandas column - remove whitespace --> replace space with underscore --> make capital letters
+cleaning pandas rows - fill Nan--> change datatype if required --> maker captial/smaller/camel 
+                    -->make sure there are no abnormal data
+

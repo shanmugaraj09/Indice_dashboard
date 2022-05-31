@@ -1,0 +1,41 @@
+﻿country,Name,Short name,ticker_symbol_yfinance,Indice type
+,ALL ORDINARIES,,^AORD,
+,BEL 20,,^BFX,
+France,CAC 40,,^FCHI,Major
+,Cboe UK 100,,^BUK100P,
+,CBOE Volatility Index,,^VIX,
+CHINA,CSI 100,,000852.SS,Major
+GERMANY,DAX PERFORMANCE-INDEX,,^GDAXI,Major
+United States,Dow Jones Industrial Average,Dow30, ^DJI,Major
+,EGX 30 Price Return Index,,^CASE30,
+GERMANY,ESTX 50 PR.EUR,,^STOXX50E,Major
+,Euronext 100 Index,,^N100,
+United kingdom,FTSE 100,,^FTSE,Major
+,FTSE Bursa Malaysia KLCI,,^KLSE,
+,HANG SENG INDEX,,^HSI,
+Brazil,IBOVESPA,,^BVSP,Major
+,IPC MEXICO,,^MXX,
+,Jakarta Composite Index,,^JKSE,
+South Korea,KOSPI Composite Index,,^KS11,Major
+,MERVAL,,^MERV,
+Russia,MOEX Russia Index,,IMOEX.ME,Major
+Russia,RTS Index,,RTSI.ME,Major
+United States,Nasdaq Composite Index,Nasdaq , ^IXIC,Major
+INDIA,Nifty fity,NIFTY50,^NSEI,Major
+JAPAN,Nikkei 225,,^N225,Major
+,NYSE AMEX COMPOSITE INDEX,,^XAX,
+,NYSE COMPOSITE (DJ),,^NYA,
+,Russell 2000,,^RUT,
+,S&P BSE SENSEX,,^BSESN,
+Australia,S&P/ASX 200,,^AXJO,Major
+,S&P/CLX IPSA,,^IPSA,
+,S&P/NZX 50 INDEX GROSS,,^NZ50,
+Canada,S&P/TSX Composite index,,^GSPTSE,Major
+INDIA,Sensex,SENSEX,^BSESN,Major
+China,Shenzhen Component,,399001.SZ,Major
+China,SSE Composite Index,,000001.SS,Major
+United States,Standard & Poor's 500 ,S&P500, ^GSPC,Major
+,STI Index,,^STI,
+,TA-125,,^TA125.TA,
+,Top 40 USD Net TRI Index,,^JN0U.JO,
+,TSEC weighted index,,^TWII,

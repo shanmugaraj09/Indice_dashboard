@@ -1,0 +1,25 @@
+----------------------USA --------------------------
+$ pip install yfinance --upgrade --no-cache-dirf
+
+import yfinance as yf
+sp500 = yf.Ticker('^GSPC')
+sp500_hist = sp500.history(period='1y')
+
+---------------------USA ------this has nifty also---------------------
+pip install yahoo_fin
+If you ever need to upgrade in the future just run:
+
+pip install yahoo_fin --upgrade
+
+-------------------NSE----not very reliant sometimes doenst give response--------------------
+
+>>> from nsepy import get_history
+>>> from datetime import date
+>>> data = get_history(symbol="SBIN", start=date(2015,1,1), end=date(2015,1,31))
+>>> data[['Close']].plot()
+
+----------------------------------------
+imp links
+https://algotrading101.com/learn/yahoo-finance-api-guide/
+http://theautomatic.net/yahoo_fin-documentation/#tickers_nifty50
+https://algotrading101.com/learn/yfinance-guide/
