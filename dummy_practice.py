@@ -28,3 +28,6 @@ def check_error(account_id):
    
 #sample testing
 #df_OCHL_data=pd.read_csv('All_OCHL_data.csv',skipinitialspace = True)
+
+import seaborn as sns
+tips=sns.load_dataset("tips")
