@@ -2,6 +2,7 @@ import Pre_processing
 #exec(open("./Pre_processing.py").read())
 import pandas as pd
 from numpy import array
+import os
 ##############################################################################
 
 df_OCHL_data=Pre_processing.All_OCHL_Data
@@ -57,3 +58,18 @@ for index,row in df_OCHL_data.iterrows():
     last_value,last_date=row.SYMBOL,row.DATE
     #end of for loop
 
+##############taking backup#####################
+df_OCHL_data=Pre_processing.All_OCHL_Data
+indice_data=Pre_processing.indice_data
+gdp_data=Pre_processing.gdp_data
+infla_data=Pre_processing.infla_data
+country_code=Pre_processing.country_code
+
+os.chdir('C:\\Users\\Shan\\Indice_dashboard\\data')
+df_OCHL_data.to_csv('df_OCHL_data.csv')
+indice_data.to_csv('indice_data.csv')
+gdp_data.to_csv('gdp_data.csv')
+infla_data.to_csv('infla_data.csv')
+country_code.to_csv('country_code.csv')
+df_new_high.to_csv('df_new_high.csv')
+df_fall_range.to_csv('df_fall_range.csv')

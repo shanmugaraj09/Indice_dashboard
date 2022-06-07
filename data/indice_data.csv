@@ -1,0 +1,20 @@
+,COUNTRY,NAME,SHORT_NAME,TICKER_SYMBOL_YFINANCE,INDICE_TYPE,MIN_DATE
+0,France,CAC 40,CAC 40,^FCHI,Major,1990-03-01
+1,China,CSI 100,CSI 100,000852.SS,Major,2022-06-07
+2,Germany,DAX PERFORMANCE-INDEX,DAX PERFORMANCE-INDEX,^GDAXI,Major,1987-12-30
+3,United States,Dow Jones Industrial Average,Dow30,^DJI,Major,1992-01-02
+4,Germany,ESTX 50 PR.EUR,ESTX 50 PR.EUR,^STOXX50E,Major,2007-03-30
+5,United Kingdom,FTSE 100,FTSE 100,^FTSE,Major,1984-01-03
+6,Brazil,IBOVESPA,IBOVESPA,^BVSP,Major,1993-04-27
+7,South Korea,KOSPI Composite Index,KOSPI Composite Index,^KS11,Major,1996-12-11
+8,Russia,MOEX Russia Index,MOEX Russia Index,IMOEX.ME,Major,2013-03-05
+9,Russia,RTS Index,RTS Index,RTSI.ME,Major,2022-06-07
+10,United States,Nasdaq Composite Index,Nasdaq ,^IXIC,Major,1971-02-05
+11,India,Nifty fity,NIFTY50,^NSEI,Major,2007-09-17
+12,Japan,Nikkei 225,Nikkei 225,^N225,Major,1965-01-05
+13,Australia,S&P/ASX 200,S&P/ASX 200,^AXJO,Major,1992-11-23
+14,Canada,S&P/TSX Composite index,S&P/TSX Composite index,^GSPTSE,Major,1979-06-29
+15,India,Sensex,SENSEX,^BSESN,Major,1997-07-01
+16,China,Shenzhen Component,Shenzhen Component,399001.SZ,Major,1997-08-22
+17,China,SSE Composite Index,SSE Composite Index,000001.SS,Major,1997-07-02
+18,United States,Standard & Poor's 500 ,S&P500,^GSPC,Major,1950-01-03

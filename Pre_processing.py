@@ -7,6 +7,7 @@ Purpose - clean and format the dataframe from different source
 
 import User_Defined_Fx as uf 
 import pandas as pd
+import numpy as np
 ##############################Pre Processing#######################################
 
 #######################get country and index data##################################
@@ -55,6 +56,12 @@ country_code.columns=country_code.iloc[0] #make first row as column
 country_code=country_code.iloc[1:]#remove the first row
 
 #################################End of Pre Processing##############################
+
+df = All_OCHL_Data.groupby(['SYMBOL'])
+# using agg() function on Date column
+df2 = df.agg(MIN_DATE=('DATE', np.min))
+#inner join
+indice_data = pd.merge(indice_data, df2, left_on='TICKER_SYMBOL_YFINANCE', right_on='SYMBOL', how='inner')
 
 
 

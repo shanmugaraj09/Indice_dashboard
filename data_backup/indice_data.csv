@@ -1,0 +1,20 @@
+,COUNTRY,NAME,SHORT_NAME,TICKER_SYMBOL_YFINANCE,INDICE_TYPE
+2,France,CAC 40,CAC 40,^FCHI,Major
+5,China,CSI 100,CSI 100,000852.SS,Major
+6,Germany,DAX PERFORMANCE-INDEX,DAX PERFORMANCE-INDEX,^GDAXI,Major
+7,United States,Dow Jones Industrial Average,Dow30,^DJI,Major
+9,Germany,ESTX 50 PR.EUR,ESTX 50 PR.EUR,^STOXX50E,Major
+11,United Kingdom,FTSE 100,FTSE 100,^FTSE,Major
+14,Brazil,IBOVESPA,IBOVESPA,^BVSP,Major
+17,South Korea,KOSPI Composite Index,KOSPI Composite Index,^KS11,Major
+19,Russia,MOEX Russia Index,MOEX Russia Index,IMOEX.ME,Major
+20,Russia,RTS Index,RTS Index,RTSI.ME,Major
+21,United States,Nasdaq Composite Index,Nasdaq ,^IXIC,Major
+22,India,Nifty fity,NIFTY50,^NSEI,Major
+23,Japan,Nikkei 225,Nikkei 225,^N225,Major
+28,Australia,S&P/ASX 200,S&P/ASX 200,^AXJO,Major
+31,Canada,S&P/TSX Composite index,S&P/TSX Composite index,^GSPTSE,Major
+32,India,Sensex,SENSEX,^BSESN,Major
+33,China,Shenzhen Component,Shenzhen Component,399001.SZ,Major
+34,China,SSE Composite Index,SSE Composite Index,000001.SS,Major
+35,United States,Standard & Poor's 500 ,S&P500,^GSPC,Major
